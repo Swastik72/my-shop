@@ -1,0 +1,16 @@
+.container-fluid{
+    background-color: #2874f0;
+}
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-container h3{
+    color: #FFF;
+}
+.header-container .input-group{
+    width:80%;
+}
+.header-nav li a{
+    color:#FFF;
+}

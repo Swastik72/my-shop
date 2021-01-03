@@ -1,8 +1,40 @@
-<div class="container">
-    <div class="row py-1">
-        <div class="col-6">
-            <h4>My Cart</h4>
+<div class="container-fluid">
+    <div class="header-container">
+        <div class="row py-2">
+            <div class="col-7 clearfix">
+                <h3 class="float-left mr-3 mb-0">My Cart</h3>
+                <div class="input-group float-left">
+                    <input type="text" class="form-control" placeholder="Search for Products,Brands and more"
+                        aria-label="Search for Products,Brands and more" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <a class="input-group-text" id="basic-addon2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 clearfix">
+                <ul class="nav header-nav float-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">User Name</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="col-6"></div>
     </div>
 </div>
