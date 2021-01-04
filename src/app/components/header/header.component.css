@@ -1,5 +1,5 @@
 .container-fluid{
-    background-color: #2874f0;
+    background-color: #273c75;
 }
 .header-container{
     width: 80%;
@@ -11,6 +11,9 @@
 .header-container .input-group{
     width:80%;
 }
-.header-nav li a{
+ li a{
     color:#FFF;
+}
+.header-nav .user-menu a{
+    color:#353b48;
 }
