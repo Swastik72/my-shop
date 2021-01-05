@@ -1,0 +1,19 @@
+.container-fluid{
+    background-color: #273c75;
+}
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-container h3{
+    color: #FFF;
+}
+.header-container .input-group{
+    width:80%;
+}
+ li a{
+    color:#FFF;
+}
+.header-nav .user-menu a{
+    color:#353b48;
+}
